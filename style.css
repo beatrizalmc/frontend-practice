@@ -280,4 +280,73 @@ header a {
 /*TESTIMONIAL*/
 .testimonials-section {
     background-color: #1E0E62;
+    color: #fff;
+    padding: 100px 120px;
 }
+
+.testimonials-section .titulo-testimonial {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 52px;
+  padding-bottom: 32px;
+}
+
+.testimonial-pessoa-card {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 35px 50px 20px 35px !important;
+  min-height: 240px;
+}
+
+.testimonial-pessoa {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.testimonial-pessoa-nome {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff42;
+}
+
+/*CALL TO ACTION*/
+.calltoaction-section {
+  background-color: #2F1893;
+  background-image: url(images/background-calltoaction.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+
+  padding: 100px 380px;
+}
+
+.btn-play {
+  background-color: #EA3223;
+  border: none;
+  border-radius: 100%;
+  padding: 22px 24px 22px 26px;
+}
+
+.btn-get-started {
+  background-color: #25DAC5;
+  border: none;
+  border-radius: 80px;
+  padding: 22px 50px;
+  color: #fff;
+}
+
+.titulo-calltoaction {
+  font-size: 58px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.paragrafo-calltoaction {
+  font-size: 22px;
+  font-weight: 300;
+  padding-bottom: 58px;
+}
+
+/*SHOW CASE*/
