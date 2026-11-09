@@ -15,6 +15,7 @@ ul {
 header a {
     text-decoration: none;
     color: #fff;
+    border-bottom: 2px solid transparent;
 }
 
 .header {
@@ -98,6 +99,14 @@ header a {
     color: #fff !important;
     width: 16px !important;
     height: 16px !important;
+}
+
+.header a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.btn-create-account:hover {
+    background-color: #2b0dd5;
 }
 
 /*CONTENT*/
@@ -355,6 +364,14 @@ header a {
   padding-bottom: 58px;
 }
 
+.btn-play:hover {
+  background-color: #e7200e;
+}
+
+.btn-get-started:hover {
+  background-color: #1bc4a5;
+}
+
 /*SHOW CASE*/
 .showcase-section {
   padding: 100px 120px;
@@ -395,6 +412,11 @@ header a {
 .showcase-work h3 {
   font-size: 22px;
   font-weight: 300;
+}
+
+.btn-view-works:hover {
+  background-color: #ffffff28;
+  color: #fff;
 }
 
 /*TEAM*/
@@ -632,5 +654,47 @@ header a {
 }
 
 /*FOOTER*/
+footer {
+  background-color: #2F1893;
+}
+
+.footer-superior h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-superior .lista-footer-superior li {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-superior .lista-footer-superior a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+}
+
+.footer-inferior .lista-footer-inferior li {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-inferior .lista-footer-inferior a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-inferior span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-superior .lista-footer-superior a:hover {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
 
 /*RESPONSIVIDADE*/
+
+/*TODO: Página faltante, responsividade, deixar menos estático*/
