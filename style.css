@@ -117,7 +117,6 @@ header a {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    max-height: 540px;
 }
 
 .content-texts {
@@ -765,3 +764,106 @@ footer {
 }
 
 /*RESPONSIVIDADE*/
+@media (max-width: 1199.98px) {
+  /*CONTENT*/
+  .content-texts {
+    padding: 64px 100px 94px 100px;
+  }
+
+  /*FEATURES*/
+  .features-section {
+    padding: 100px;
+  }
+
+  /*TESTIMONIAL*/
+  .testimonials-section {
+    padding: 100px;
+  }
+
+  .testimonial-pessoa-card {
+    padding: 35px 35px 20px 35px !important;
+    min-height: 280px;
+  }
+
+  /*CALL TO ACTION*/
+  .calltoaction-section {
+    padding: 100px;
+  }
+
+  /*SHOW TO CASE*/
+  .showcase-section {
+    padding: 100px;
+  }
+
+  /*CONTACT*/
+  .contact-section {
+    padding: 100px 80px 80px 80px;
+  }
+
+  /*PLANS AND PRICING*/
+  .pricing-section {
+    padding: 100px 80px 80px 80px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  /*HERO*/
+  .swiper-slide {
+    padding: 0px 100px;
+  }
+
+  /*CONTENT*/
+  .content-texts {
+    padding: 64px 40px 64px 40px;
+  }
+
+  /*FORM*/
+  .form-section {
+    padding: 100px 60px 80px 60px;
+  }
+
+  /*TESTIMONIALS*/
+  .testimonials-section {
+    padding: 80px;
+  }
+
+  .testimonial-pessoa-card {
+    min-height: 220px;
+  }
+
+  /*PLANS AND PRICING*/
+  .card-pricing {
+    padding: 50px 15px 56px 15px;
+  }
+
+  .paragrafo-pricing {
+    padding: 0 80px 46px 80px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .swiper-slide {
+    padding: 0px 60px;
+  }
+
+  .content-texts {
+    padding: 64px 0 80px 0;
+  }
+
+  .card-features {
+    padding: 0 10px;
+  }
+
+  .paragrafo-pricing {
+    padding: 0 0 46px 0;
+  }
+
+  .card-pricing, .card-pricing ul li {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+
+}
