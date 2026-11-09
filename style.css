@@ -146,6 +146,46 @@ header a {
 }
 
 /*FEATURES*/
+.features-section {
+    background-color: #2F1893;
+    background-image: url(images/background-features.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 300px;
+}
+
+.titulo-features {
+  padding-bottom: 12px;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.paragrafo-features {
+  padding-bottom: 60px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card-features {
+  padding: 0 40px;
+}
+
+.card-features img {
+  padding-bottom: 28px;
+}
+
+.card-features h3 {
+  padding-bottom: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-features p {
+  font-size: 14px;
+  font-weight: 400;
+}
 
 /*FORM*/
 .form-section {
@@ -311,6 +351,15 @@ header a {
   border-radius: 8px;
   padding: 35px 50px 20px 35px !important;
   min-height: 240px;
+
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-pessoa-card:hover {
+  background-color: #ffffff14;
+  transform: translateY(-8px);
 }
 
 .testimonial-pessoa {
@@ -419,6 +468,16 @@ header a {
   color: #fff;
 }
 
+.showcase-work {
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.showcase-work:hover {
+  transform: translateY(-8px);
+}
+
 /*TEAM*/
 .team-section {
   padding: 100px 0;
@@ -463,6 +522,16 @@ header a {
 .redes-sociais-person a img {
   width: 16px;
   height: 16px;
+}
+
+.person-team {
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.person-team:hover {
+  transform: translateY(-8px);
 }
 
 /*CONTACT*/
@@ -696,5 +765,3 @@ footer {
 }
 
 /*RESPONSIVIDADE*/
-
-/*TODO: Página faltante, responsividade, deixar menos estático*/
